@@ -24,6 +24,6 @@ galc --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0
 
 Alchemist has set up some default nodes that you can try to connect as bootstrap nodes. Once connected, the console will start syncing automatically. In case you can't see syncing after a long time, you may have to add peer(s) manually.
 
-In GALC console, add knowing peer with its enode information:
+In GALCwget https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz console, add knowing peer with its enode information:
 
 `> admin.addPeer("{enode info}")`
