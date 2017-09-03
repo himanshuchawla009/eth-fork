@@ -1,14 +1,14 @@
-##Alchemist Blockcchain in Go
+## Alchemist Blockcchain in Go
 
 Alchemist Go client is a modified blockchain based on Ethereum protocol in Go language.
 
-##Building the source
+## Building the source
 
 Building galc(go-alchemist) requires both a Go and a C compiler. You can install them using your favorite package manager. Once the dependencies are installed, run:
 
 `make all`
 
-##Run Alchemist client(galc)
+## Run Alchemist client(galc)
 
 `galc console`
 
@@ -20,10 +20,10 @@ galc --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0
 
 
 
-##Can't find peers to sync?
+## Can't find peers to sync?
 
 Alchemist has set up some default nodes that you can try to connect as bootstrap nodes. Once connected, the console will start syncing automatically. In case you can't see syncing after a long time, you may have to add peer(s) manually.
 
-In GALCwget https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz console, add knowing peer with its enode information:
+In GALC console, add knowing peer with its enode information:
 
 `> admin.addPeer("{enode info}")`
