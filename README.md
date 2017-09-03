@@ -1,4 +1,4 @@
-## Alchemist Blockcchain in Go
+## Alchemist Blockchain in Go
 
 Alchemist Go client is a modified blockchain based on Ethereum protocol in Go language.
 
@@ -16,7 +16,7 @@ A common error is that galc is not executable. Please do chmod +x <path-to-galc>
 
 If you want to run with RPC, please add more flags accordingly:
 
-galc --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" console
+`galc --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" console`
 
 
 
