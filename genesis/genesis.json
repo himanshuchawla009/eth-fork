@@ -6,7 +6,7 @@
     "extraData": "0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa",
     "gasLimit": 5000000000,
     "alloc": {
-        "385acafdb80b71ae001f1dbd0d65e62ec2fff055": {
+        "999ba4bde6aFe8B043F2D01810940157A4CdB135": {
             "balance": "550000000000000000000000000"
         }
     }
