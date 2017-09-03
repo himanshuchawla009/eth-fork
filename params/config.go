@@ -32,7 +32,7 @@ var (
 var (
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainId:         big.NewInt(612734562335634635),
+		ChainId:         big.NewInt(2555222),
 		HomesteadBlock:  big.NewInt(0),
 		DAOForkBlock:    big.NewInt(999999999999999999),
 		DAOForkSupport:  true,
