@@ -34,12 +34,12 @@ var (
 	MainnetChainConfig = &ChainConfig{
 		ChainId:         big.NewInt(2555222),
 		HomesteadBlock:  big.NewInt(0),
-		DAOForkBlock:    big.NewInt(999999999999999999),
+		DAOForkBlock:    big.NewInt(math.MaxInt64),
 		DAOForkSupport:  true,
 		EIP150Block:     big.NewInt(0),
 		EIP150Hash:      common.HexToHash("0x0000000000000000000000000000000000000000000000000000000000000000"),
-		EIP155Block:     big.NewInt(10),
-		EIP158Block:     big.NewInt(10),
+		EIP155Block:     big.NewInt(0),
+		EIP158Block:     big.NewInt(0),
 		MetropolisBlock: big.NewInt(math.MaxInt64), // Don't enable yet
 
 		Ethash: new(EthashConfig),
