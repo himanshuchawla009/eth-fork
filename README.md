@@ -4,7 +4,7 @@ Alchemist Go client is a modified blockchain based on Ethereum protocol in Go la
 
 ## Building the source
 
-Building galc(go-alchemist) requires both a Go and a C compiler. You can install them using your favorite package manager. Once the dependencies are installed, run:
+Building galc(go-alchemist) requires both a Go and a C compiler. You'll need Go version 1.7 or above. You can install them using your favorite package manager. Once the dependencies are installed, run:
 
 `make all`
 
