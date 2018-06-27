@@ -21,7 +21,7 @@ package params
 var MainnetBootnodes = []string{
 
 	// Alchemist Foundation Go Bootnodes
-	"enode://d14bb9145b79069a28ad6c841b23d4614508f0d14be4ab1eba9ffb148094e850f641f905ed53a24925fd814f5802ef6b35e2e7b8d2a6b8e0fd39803b5558d211@54.169.144.165:30303",
+	"enode://1e88ba7eca1f60d2b2859b4085f676cd9c646179184ee73836e16e4994ca011350d62cbb5880b2b980429130906954b7cba02ac9c1c069faec03bb61214f41a8@54.169.164.110:30303",
 }
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the .
